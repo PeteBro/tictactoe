@@ -8,12 +8,8 @@ def gameon():
     while choice not in ['Y', 'N']:
         choice = input("Sorry, I didn't understand that, please enter either Y or N:")
         print('\n')
-    if choice == 'Y':
-        keep_playing = True
-    elif choice == 'N':
-        keep_playing = False
 
-    return keep_playing
+    return choice == 'Y'
 
 
 
